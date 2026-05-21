@@ -12,14 +12,14 @@ const WORKER_ORIGIN = 'https://api-musica.a-cambon.workers.dev';
 const WORKER_BASE = `${WORKER_ORIGIN}/get-song`;
 
 /** Cuentas B2 a leer (1 = alemusic-1, 2 = segundo bucket gratuito, etc.) */
-const B2_ACCOUNTS = ['1'];
+const B2_ACCOUNTS = ['2'];
 
 /** Se rellena al entrar, leyendo B2 vía Worker /list-library */
 let MUSIC_LIBRARY = [];
-const ACCESS_PASSWORD = 'AleMusic2026';
-const SESSION_KEY = 'aleMusicBox_auth';
-const THEME_KEY = 'aleMusicBox_theme';
-const EQ_KEY = 'aleMusicBox_eq';
+const ACCESS_PASSWORD = '0404';
+const SESSION_KEY = 'martaMusicBox_auth';
+const THEME_KEY = 'martaMusicBox_theme';
+const EQ_KEY = 'martaMusicBox_eq';
 const SKIP_SECONDS = 10;
 
 const EQ_FREQUENCIES = [31, 62, 125, 250, 500, 1000, 2000, 4000, 8000, 16000];
