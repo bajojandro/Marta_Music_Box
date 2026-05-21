@@ -1,3 +1,3 @@
 const B2_ACCOUNTS = ['2'];
-const ACCESS_PASSWORD = 'LaContraseñaQueQuerais';
+const ACCESS_PASSWORD = '0404';
 const SESSION_KEY = 'martaMusicBox_auth';
